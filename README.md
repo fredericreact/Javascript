@@ -48,37 +48,37 @@
 
     });
     
-    // Traditional Anonymous Function
-(function (a) {
-  return a + 100;
-});
+>Traditional Anonymous Function
+ 
+    (function (a) {
+      return a + 100;
+    });
 
-(a) => {
-  return a + 100;
-};
+    (a) => {
+      return a + 100;
+    };
 
+>Regular function
 
-//Regular function
+    function France() {
+      console.log("France");
+    }
+    France();
 
-function France() {
-  console.log("France");
-}
-France();
+    const Germany = () => {
+      console.log("Ger");
+    };
+    Germany();
 
-const Germany = () => {
-  console.log("Ger");
-};
-Germany();
+    const Poland = () => console.log("Pol");
+    Poland();
 
-const Poland = () => console.log("Pol");
-Poland();
+>Return function
 
-//Return function
+    function UK() {
+      return "UK";
+    }
+    console.log(UK());
 
-function UK() {
-  return "UK";
-}
-console.log(UK());
-
-const Russia = () => "Russia";
-console.log(Russia());
+    const Russia = () => "Russia";
+    console.log(Russia());
