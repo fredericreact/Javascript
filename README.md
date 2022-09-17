@@ -47,3 +47,38 @@
     boxes.forEach((divBox, index) => {
 
     });
+    
+    // Traditional Anonymous Function
+(function (a) {
+  return a + 100;
+});
+
+(a) => {
+  return a + 100;
+};
+
+
+//Regular function
+
+function France() {
+  console.log("France");
+}
+France();
+
+const Germany = () => {
+  console.log("Ger");
+};
+Germany();
+
+const Poland = () => console.log("Pol");
+Poland();
+
+//Return function
+
+function UK() {
+  return "UK";
+}
+console.log(UK());
+
+const Russia = () => "Russia";
+console.log(Russia());
